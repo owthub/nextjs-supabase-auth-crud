@@ -1,0 +1,53 @@
+<div class="container mt-5">
+  <h2 class="text-center">Register</h2>
+  <form class="w-50 mx-auto mt-3">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label class="form-label">Display Name</label>
+        <input type="text" class="form-control" />
+        <p class="text-danger"></p>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" />
+        <p class="text-danger"></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label class="form-label">Phone</label>
+        <input type="text" class="form-control" />
+        <p class="text-danger"></p>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Gender</label>
+        <select class="form-control">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <p class="text-danger"></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" />
+        <p class="text-danger"></p>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" />
+        <p class="text-danger"></p>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Register</button>
+  </form>
+
+  <p class="text-center mt-3">
+    Already have an account? <a href="/auth/login">Login</a>
+  </p>
+</div>
